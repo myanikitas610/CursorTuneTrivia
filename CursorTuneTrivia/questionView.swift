@@ -25,6 +25,25 @@ struct Question: Identifiable, Codable {
     enum CodingKeys: String, CodingKey {
         case id, audioURL, startTime, endTime, questionText, options, correctAnswer, metadata
     }
+    
+    init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        id = try container.decode(String.self, forKey: .id)
+        let urlString = try container.decode(String.self, forKey: .audioURL)
+        guard let url = URL(string: urlString) else {
+            throw DecodingError.dataCorrupted(DecodingError.Context(
+                codingPath: container.codingPath,
+                debugDescription: "Invalid URL string: \(urlString)"
+            ))
+        }
+        audioURL = url
+        startTime = try container.decode(Double.self, forKey: .startTime)
+        endTime = try container.decode(Double.self, forKey: .endTime)
+        questionText = try container.decode(String.self, forKey: .questionText)
+        options = try container.decode([String].self, forKey: .options)
+        correctAnswer = try container.decode(String.self, forKey: .correctAnswer)
+        metadata = try container.decode(QuestionMetadata.self, forKey: .metadata)
+    }
 }
 
 // View for displaying a question with options
@@ -46,7 +65,7 @@ struct QuestionView: View {
         NavigationStack {
             ZStack {
                 // Set background image
-                Image("questionView")
+                Image("backgroundImage2")
                     .resizable()
                     .scaledToFill()
                     .ignoresSafeArea()
@@ -171,19 +190,41 @@ struct QuestionView: View {
     // Load questions from a JSON file
     private func loadQuestionsFromJSON() {
         guard let url = Bundle.main.url(forResource: "questions", withExtension: "json") else {
-            print("Failed to find questions.json")
+            print("Failed to find questions.json in bundle")
+            alertMessage = "Failed to find questions.json in bundle. Please make sure it's included in the target."
+            showAlert = true
             return
         }
 
         do {
             let data = try Data(contentsOf: url)
-            var decodedQuestions = try JSONDecoder().decode([Question].self, from: data)
+            print("Successfully read \(data.count) bytes from questions.json")
+            
+            let decoder = JSONDecoder()
+            var decodedQuestions = try decoder.decode([Question].self, from: data)
+            print("Successfully decoded \(decodedQuestions.count) questions")
+            
             decodedQuestions.shuffle()  // Shuffle the questions for random order
             questions = Array(decodedQuestions.prefix(10))  // Limit to 10 questions
+            print("Selected \(questions.count) random questions")
             isLoading = false
         } catch {
             print("Failed to load questions: \(error)")
-            alertMessage = "Failed to load questions. Please restart the app."
+            if let decodingError = error as? DecodingError {
+                switch decodingError {
+                case .keyNotFound(let key, let context):
+                    print("Missing key: \(key.stringValue), context: \(context.debugDescription)")
+                case .typeMismatch(let type, let context):
+                    print("Type mismatch: expected \(type), context: \(context.debugDescription)")
+                case .valueNotFound(let type, let context):
+                    print("Value not found: expected \(type), context: \(context.debugDescription)")
+                case .dataCorrupted(let context):
+                    print("Data corrupted: \(context.debugDescription)")
+                @unknown default:
+                    print("Unknown decoding error: \(decodingError)")
+                }
+            }
+            alertMessage = "Failed to load questions: \(error.localizedDescription)"
             showAlert = true
         }
     }

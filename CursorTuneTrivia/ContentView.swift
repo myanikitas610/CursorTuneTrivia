@@ -8,7 +8,7 @@ struct ContentView: View {
         NavigationStack {
             ZStack {
                 // Background Image
-                Image("contentView")
+                Image("backgroundImage")
                     .resizable()
                     .scaledToFill()
                     .ignoresSafeArea()

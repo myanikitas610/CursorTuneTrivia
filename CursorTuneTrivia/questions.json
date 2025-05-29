@@ -51,222 +51,294 @@
         }
     },
     {
+        "id": "4",
         "audioURL": "https://github.com/myanikitas610/TuneTrivia/blob/audio/Ariana%20Grande%20-%20we%20can't%20be%20friends%20(Lyrics).mp3?raw=true",
         "startTime": 40,
         "endTime": 50,
         "questionText": "What album is this song on?",
         "options": ["Eternal Sunshine", "Positions", "Thank You, Next", "Sweetener"],
-        "correctAnswer": "Eternal Sunshine"
+        "correctAnswer": "Eternal Sunshine",
+        "metadata": {
+            "songTitle": "we can't be friends",
+            "artist": "Ariana Grande",
+            "album": "Eternal Sunshine",
+            "releaseYear": 2024,
+            "genre": "Pop",
+            "difficulty": "easy"
+        }
     },
     {
+        "id": "5",
         "audioURL": "https://github.com/myanikitas610/TuneTrivia/blob/audio/Billie%20Eilish%20-%20BIRDS%20OF%20A%20FEATHER%20(Lyrics).mp3?raw=true",
         "startTime": 30,
         "endTime": 40,
         "questionText": "Who sings this song?",
         "options": ["Taylor Swift", "Billie Eilish", "Sabrina Carpenter", "Gracie Abrams"],
-        "correctAnswer": "Billie Eilish"
+        "correctAnswer": "Billie Eilish",
+        "metadata": {
+            "songTitle": "Birds of a Feather",
+            "artist": "Billie Eilish",
+            "album": "Hit Me Hard and Soft",
+            "releaseYear": 2024,
+            "genre": "Pop",
+            "difficulty": "easy"
+        }
     },
     {
+        "id": "6",
         "audioURL": "https://github.com/myanikitas610/TuneTrivia/blob/audio/Billy%20Joel%20-%20Piano%20Man%20(Lyrics).mp3?raw=true",
         "startTime": 0,
         "endTime": 10,
         "questionText": "What year did this song come out?",
         "options": ["1975", "1973", "1970", "1976"],
-        "correctAnswer": "1973"
+        "correctAnswer": "1973",
+        "metadata": {
+            "songTitle": "Piano Man",
+            "artist": "Billy Joel",
+            "album": "Piano Man",
+            "releaseYear": 1973,
+            "genre": "Rock",
+            "difficulty": "medium"
+        }
     },
     {
+        "id": "7",
         "audioURL": "https://github.com/myanikitas610/TuneTrivia/blob/audio/Chappell%20Roan%20-%20Good%20Luck%2C%20Babe!%20(Lyrics).mp3?raw=true",
         "startTime": 5,
         "endTime": 15,
         "questionText": "What is the title of this song?",
         "options": ["Good Luck, Babe", "Pink Pony Club", "HOT TO GO", "Red Wine Supernova"],
-        "correctAnswer": "Good Luck, Babe"
+        "correctAnswer": "Good Luck, Babe",
+        "metadata": {
+            "songTitle": "Good Luck, Babe!",
+            "artist": "Chappell Roan",
+            "album": "The Rise and Fall of a Midwest Princess",
+            "releaseYear": 2023,
+            "genre": "Pop",
+            "difficulty": "medium"
+        }
     },
     {
+        "id": "8",
         "audioURL": "https://github.com/myanikitas610/TuneTrivia/blob/audio/Goo%20Goo%20Dolls%20-%20Iris%20(Lyrics).mp3?raw=true",
         "startTime": 0,
         "endTime": 10,
         "questionText": "What year did this song come out?",
         "options": ["1990", "1999", "2000", "1998"],
-        "correctAnswer": "1998"
+        "correctAnswer": "1998",
+        "metadata": {
+            "songTitle": "Iris",
+            "artist": "Goo Goo Dolls",
+            "album": "Dizzy Up the Girl",
+            "releaseYear": 1998,
+            "genre": "Alternative Rock",
+            "difficulty": "medium"
+        }
     },
     {
+        "id": "9",
         "audioURL": "https://github.com/myanikitas610/TuneTrivia/blob/audio/Charli%20xcx%20-%20Apple.mp3?raw=true",
         "startTime": 45,
         "endTime": 55,
         "questionText": "What album is this song on?",
         "options": ["crash", "charli", "pop 2", "brat"],
-        "correctAnswer": "brat"
+        "correctAnswer": "brat",
+        "metadata": {
+            "songTitle": "Apple",
+            "artist": "Charli XCX",
+            "album": "brat",
+            "releaseYear": 2024,
+            "genre": "Pop",
+            "difficulty": "medium"
+        }
     },
     {
+        "id": "10",
         "audioURL": "https://github.com/myanikitas610/TuneTrivia/blob/audio/Gracie%20Abrams%20-%20Thats%20So%20True%20(Lyrics).mp3?raw=true",
         "startTime": 60,
         "endTime": 70,
         "questionText": "What is the title of this song?",
         "options": ["That's so true", "Feels like", "I love you, I'm Sorry", "Risk"],
-        "correctAnswer": "That's so true"
+        "correctAnswer": "That's so true",
+        "metadata": {
+            "songTitle": "That's so true",
+            "artist": "Gracie Abrams",
+            "album": "The Good Riddance Acoustic Shows",
+            "releaseYear": 2024,
+            "genre": "Pop",
+            "difficulty": "medium"
+        }
     },
     {
+        "id": "11",
         "audioURL": "https://github.com/myanikitas610/TuneTrivia/blob/audio/Lana%20Del%20Rey%20-%20Doin%20Time%20(Lyrics).mp3?raw=true",
         "startTime": 135,
         "endTime": 145,
         "questionText": "Who sang this cover of this song?",
         "options": ["Lorde", "Miley Cyrus", "Lady Gaga", "Lana Del Rey"],
-        "correctAnswer": "Lana Del Rey"
+        "correctAnswer": "Lana Del Rey",
+        "metadata": {
+            "songTitle": "Doin' Time",
+            "artist": "Lana Del Rey",
+            "album": "Norman Fucking Rockwell!",
+            "releaseYear": 2019,
+            "genre": "Alternative/Pop",
+            "difficulty": "medium"
+        }
     },
     {
+        "id": "12",
         "audioURL": "https://github.com/myanikitas610/TuneTrivia/blob/audio/Queen%20%20Bohemian%20Rhapsody%20(Lyrics).mp3?raw=true",
         "startTime": 251,
         "endTime": 261,
         "questionText": "What year did this song come out?",
         "options": ["1980", "1973", "1975", "1976"],
-        "correctAnswer": "1975"
+        "correctAnswer": "1975",
+        "metadata": {
+            "songTitle": "Bohemian Rhapsody",
+            "artist": "Queen",
+            "album": "A Night at the Opera",
+            "releaseYear": 1975,
+            "genre": "Rock",
+            "difficulty": "easy"
+        }
     },
     {
+        "id": "13",
         "audioURL": "https://github.com/myanikitas610/TuneTrivia/blob/audio/Sixpence%20None%20The%20Richer%20-%20Kiss%20Me%20(Lyrics).mp3?raw=true",
         "startTime": 45,
         "endTime": 55,
         "questionText": "What is the title of this song?",
         "options": ["Twilight", "Kiss Me", "Swing", "Sixpence None the Richer"],
-        "correctAnswer": "Kiss Me"
+        "correctAnswer": "Kiss Me",
+        "metadata": {
+            "songTitle": "Kiss Me",
+            "artist": "Sixpence None the Richer",
+            "album": "Sixpence None the Richer",
+            "releaseYear": 1997,
+            "genre": "Alternative Rock",
+            "difficulty": "medium"
+        }
     },
     {
+        "id": "14",
         "audioURL": "https://github.com/myanikitas610/TuneTrivia/blob/audio/The%20Killers%20-%20Mr%20Brightside%20(Lyrics).mp3?raw=true",
         "startTime": 0,
         "endTime": 10,
         "questionText": "Who sings this song?",
         "options": ["The Killers", "My Chemical Romance", "Panic at the Disco", "Coldplay"],
-        "correctAnswer": "The Killers"
+        "correctAnswer": "The Killers",
+        "metadata": {
+            "songTitle": "Mr. Brightside",
+            "artist": "The Killers",
+            "album": "Hot Fuss",
+            "releaseYear": 2004,
+            "genre": "Alternative Rock",
+            "difficulty": "easy"
+        }
     },
     {
+        "id": "15",
         "audioURL": "https://github.com/myanikitas610/TuneTrivia/blob/audio/the%20cranberries%20-%20Linger%20(lyrics).mp3?raw=true",
         "startTime": 91,
         "endTime": 101,
         "questionText": "What year did this song come out?",
         "options": ["1990", "1999", "1993", "1994"],
-        "correctAnswer": "1993"
+        "correctAnswer": "1993",
+        "metadata": {
+            "songTitle": "Linger",
+            "artist": "The Cranberries",
+            "album": "Everybody Else Is Doing It, So Why Can't We?",
+            "releaseYear": 1993,
+            "genre": "Alternative Rock",
+            "difficulty": "medium"
+        }
     },
     {
-              "audioURL": "https://github.com/myanikitas610/TuneTrivia/blob/audio/DRAKE%20-%20NOKIA%20(Official%20Music%20Video).mp3?raw=true",
-              "startTime": 100,
-              "endTime": 110,
-              "questionText": "Who sings this song?",
-              "options": ["Drake", "Travis Scott", "Lil Baby", "Kendrick Lamar"],
-              "correctAnswer": "Drake"
-       },
-       {
-           "audioURL": "https://github.com/myanikitas610/TuneTrivia/blob/audio/SZA%20-%20Snooze%20(Lyrics).mp3?raw=true",
-           "startTime": 10,
-           "endTime": 20,
-           "questionText": "What is the name of this song?",
-           "options": ["Snooze", "Kill Bill", "Good Days", "Nobody Gets Me"],
-           "correctAnswer": "Snooze"
-         },
-         {
-           "audioURL": "https://github.com/myanikitas610/TuneTrivia/blob/audio/Phoebe%20Bridgers%20-%20Motion%20Sickness%20(Lyrics).mp3?raw=true",
-           "startTime": 0,
-           "endTime": 10,
-           "questionText": "What is the name of this song?",
-           "options": ["Motion Sickness", "I Know The End", "Georgia", "Scott Street"],
-           "correctAnswer": "Motion Sickness"
-         },
-         {
-           "audioURL": "https://github.com/myanikitas610/TuneTrivia/blob/audio/WILDFLOWER.mp3?raw=true",
-           "startTime": 13,
-           "endTime": 23,
-           "questionText": "Who sings this song?",
-           "options": ["Billie Eilish", "Gigi Perez", "Olivia Rodrigo", "Gracie Abrams"],
-           "correctAnswer": "Billie Eilish"
-         },
-         {
-           "audioURL": "https://github.com/myanikitas610/TuneTrivia/blob/audio/Gigi%20Perez%20-%20Sailor%20Song%20(Lyrics).mp3?raw=true",
-       "startTime": 65,
-           "endTime": 75,
-           "questionText": "Who sings this song?",
-           "options": ["Gigi Perez", "Phoebe Bridgers", "Lana Del Rey", "Faye Webster"],
-           "correctAnswer": "Gigi Perez"
-         },
-         {
-           "audioURL": "https://github.com/myanikitas610/TuneTrivia/blob/audio/Tyler%2C%20The%20Creator%20-%20See%20You%20Again%20(Audio)%20ft.%20Kali%20Uchis.mp3?raw=true",
-           "startTime": 0,
-           "endTime": 10,
-           "questionText": "What year was 'See You Again' released?",
-           "options": ["2017", "2019", "2015", "2021"],
-           "correctAnswer": "2017"
-         },
-         {
-           "audioURL": "https://github.com/myanikitas610/TuneTrivia/blob/audio/Lady%20Gaga%2C%20Bruno%20Mars%20-%20Die%20With%20A%20Smile%20(Lyrics).mp3?raw=true",
-           "startTime": 9,
-           "endTime": 19,
-           "questionText": "Which pair performs this duet?",
-           "options": ["Lady Gaga & Bruno Mars", "Lady Gaga & Justin Timberlake", "Bruno Mars & Ariana Grande", "Lady Gaga & Sam Smith"],
-           "correctAnswer": "Lady Gaga & Bruno Mars"
-         },
-         {
-           "audioURL": "https://github.com/myanikitas610/TuneTrivia/blob/audio/The%20Weeknd%20-%20Timeless%20(Audio).mp3?raw=true",
-           "startTime": 94,
-           "endTime": 104,
-           "questionText": "What is the title of this song?",
-           "options": ["Timeless", "Starboy", "Out of Time", "Reminder"],
-           "correctAnswer": "Timeless"
-         },
-         {
-           "audioURL": "https://github.com/myanikitas610/TuneTrivia/blob/audio/Rihanna%20-%20Needed%20Me%20(Lyrics).mp3?raw=true",
-           "startTime": 15,
-           "endTime": 25,
-           "questionText": "What is the name of this song?",
-           "options": ["Woo", "Love on the Brain", "Needed me", "Stay"],
-           "correctAnswer": "Needed me"
-         },
-         {
-           "audioURL": "https://github.com/myanikitas610/TuneTrivia/blob/audio/Kendrick%20Lamar%2C%20SZA%20-%20luther%20(Lyrics).mp3?raw=true",
-           "startTime": 10,
-           "endTime": 20,
-           "questionText": "Which two artists are featured in this song?",
-           "options": ["Kendrick Lamar & SZA", "J. Cole & SZA", "Kendrick Lamar & Doja Cat", "Tyler, The Creator & SZA"],
-           "correctAnswer": "Kendrick Lamar & SZA"
-         },
-         {
-           "audioURL": "https://github.com/myanikitas610/TuneTrivia/blob/audio/BAD%20BUNNY%20-%20DtMF%20(Lyrics%20Spanish%20%26%20English).mp3?raw=true",
-           "startTime": 84,
-           "endTime": 94,
-           "questionText": "What year did this song come out?",
-           "options": ["2021", "2025", "2019", "2023"],
-           "correctAnswer": "2025"
-         },
-         {
-           "audioURL": "https://github.com/myanikitas610/TuneTrivia/blob/audio/Novacane%20(Explicit).mp3?raw=true",
-           "startTime": 15,
-           "endTime": 25,
-           "questionText": "What is the title of this song?",
-           "options": ["Novacane", "Thinkin Bout You", "Pyramids", "Lost"],
-           "correctAnswer": "Novacane"
-         },
-         {
-           "audioURL": "https://github.com/myanikitas610/TuneTrivia/blob/audio/Benson%20Boone%20-%20Beautiful%20Things%20(Lyrics).mp3?raw=true",
-           "startTime": 70,
-           "endTime": 80,
-           "questionText": "Which male pop artist is singing this?",
-           "options": ["Benson Boone", "Stephen Sanchez", "Conan Gray", "Alec Benjamin"],
-           "correctAnswer": "Benson Boone"
-         },
-         {
-           "audioURL": "https://github.com/myanikitas610/TuneTrivia/blob/audio/Don%20Toliver%20-%20No%20Idea%20(Lyrics).mp3?raw=true",
-           "startTime": 13,
-           "endTime": 23,
-           "questionText": "When was 'No Idea' by Don Toliver released?",
-           "options": ["2019", "2021", "2017", "2020"],
-           "correctAnswer": "2019"
-         },
-         {
-           "audioURL": "https://github.com/myanikitas610/TuneTrivia/blob/audio/Sabrina%20Carpenter%20-%20Espresso%20(Official%20Audio).mp3?raw=true",
-           "startTime": 9,
-           "endTime": 19,
-           "questionText": "What is the title of this song?",
-           "options": ["Espresso", "Feather", "Nonsense", "Because I Liked a Boy"],
-           "correctAnswer": "Espresso"
-       }
-    
+        "id": "16",
+        "audioURL": "https://github.com/myanikitas610/TuneTrivia/blob/audio/DRAKE%20-%20NOKIA%20(Official%20Music%20Video).mp3?raw=true",
+        "startTime": 100,
+        "endTime": 110,
+        "questionText": "Who sings this song?",
+        "options": ["Drake", "Travis Scott", "Lil Baby", "Kendrick Lamar"],
+        "correctAnswer": "Drake",
+        "metadata": {
+            "songTitle": "NOKIA",
+            "artist": "Drake",
+            "album": "For All The Dogs",
+            "releaseYear": 2023,
+            "genre": "Hip-Hop/Rap",
+            "difficulty": "easy"
+        }
+    },
+    {
+        "id": "17",
+        "audioURL": "https://github.com/myanikitas610/TuneTrivia/blob/audio/SZA%20-%20Snooze%20(Lyrics).mp3?raw=true",
+        "startTime": 10,
+        "endTime": 20,
+        "questionText": "What is the name of this song?",
+        "options": ["Snooze", "Kill Bill", "Good Days", "Nobody Gets Me"],
+        "correctAnswer": "Snooze",
+        "metadata": {
+            "songTitle": "Snooze",
+            "artist": "SZA",
+            "album": "SOS",
+            "releaseYear": 2022,
+            "genre": "R&B",
+            "difficulty": "easy"
+        }
+    },
+    {
+        "id": "18",
+        "audioURL": "https://github.com/myanikitas610/TuneTrivia/blob/audio/Phoebe%20Bridgers%20-%20Motion%20Sickness%20(Lyrics).mp3?raw=true",
+        "startTime": 0,
+        "endTime": 10,
+        "questionText": "What is the name of this song?",
+        "options": ["Motion Sickness", "I Know The End", "Georgia", "Scott Street"],
+        "correctAnswer": "Motion Sickness",
+        "metadata": {
+            "songTitle": "Motion Sickness",
+            "artist": "Phoebe Bridgers",
+            "album": "Stranger in the Alps",
+            "releaseYear": 2017,
+            "genre": "Indie Rock",
+            "difficulty": "medium"
+        }
+    },
+    {
+        "id": "19",
+        "audioURL": "https://github.com/myanikitas610/TuneTrivia/blob/audio/WILDFLOWER.mp3?raw=true",
+        "startTime": 13,
+        "endTime": 23,
+        "questionText": "Who sings this song?",
+        "options": ["Billie Eilish", "Gigi Perez", "Olivia Rodrigo", "Gracie Abrams"],
+        "correctAnswer": "Billie Eilish",
+        "metadata": {
+            "songTitle": "Wildflower",
+            "artist": "Billie Eilish",
+            "album": "Hit Me Hard and Soft",
+            "releaseYear": 2024,
+            "genre": "Pop",
+            "difficulty": "medium"
+        }
+    },
+    {
+        "id": "20",
+        "audioURL": "https://github.com/myanikitas610/TuneTrivia/blob/audio/Gigi%20Perez%20-%20Sailor%20Song%20(Lyrics).mp3?raw=true",
+        "startTime": 65,
+        "endTime": 75,
+        "questionText": "Who sings this song?",
+        "options": ["Gigi Perez", "Phoebe Bridgers", "Lana Del Rey", "Faye Webster"],
+        "correctAnswer": "Gigi Perez",
+        "metadata": {
+            "songTitle": "Sailor Song",
+            "artist": "Gigi Perez",
+            "album": "Sailor Song - Single",
+            "releaseYear": 2024,
+            "genre": "Indie Pop",
+            "difficulty": "hard"
+        }
+    }
 ]
 
 

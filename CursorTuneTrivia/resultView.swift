@@ -29,7 +29,7 @@ struct ResultView: View {
         NavigationStack {
             ZStack {
                 // Background Image
-                Image("resultView")
+                Image("backgroundImage")
                     .resizable()
                     .scaledToFill()
                     .ignoresSafeArea()

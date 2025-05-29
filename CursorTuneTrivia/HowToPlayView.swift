@@ -30,7 +30,7 @@ struct HowToPlayView: View {
     var body: some View {
         NavigationStack {
             ZStack {
-                Image("questionView")
+                Image("backgroundImage")
                     .resizable()
                     .scaledToFill()
                     .ignoresSafeArea()
